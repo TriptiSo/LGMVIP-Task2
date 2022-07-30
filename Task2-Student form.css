@@ -1,0 +1,86 @@
+*{
+    margin:0 auto;
+    box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #18bab1;
+    background-color: #0f284f;
+}
+header{
+    padding-top:2rem;
+    padding-left: 2rem;
+	max-width: 450px;
+	width: 100%;
+}
+header h1{ 
+	font-size: 2.5rem;
+	font-weight: 300;
+	color: #18bab1;
+	margin-bottom: 1rem;
+    border-bottom: 10px solid rgb(214, 154, 25);
+}
+input, button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+}
+.input{
+    flex: 1 1 0%;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	border-radius: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    color:aqua;
+}
+.input::placeholder{
+    color:rgb(24, 210, 207);
+    opacity:50%;
+}
+#new-student-detail{
+    flex: 1 1 0%;
+    padding: 1rem;
+    font-size: 1.25rem;
+    align-self: center;
+    margin:  0 auto;
+}
+#stu-age{
+    margin-left: 15px;
+}
+.button{
+    color: rgb(255, 0, 0);
+	font-size: 1.25rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: 0.4s;
+    background-color: rgba(214, 154,25);
+}
+#stu-detail-clear{
+    margin-left: 115px;
+}
+#stu-detail-submit{
+    margin-left: 20px;
+}
+.button:hover {
+	opacity: 0.8;
+}
+.button:active {
+	opacity: 0.6;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+table, th, td{
+    border: 2px solid black;
+    padding:10px;
+}
